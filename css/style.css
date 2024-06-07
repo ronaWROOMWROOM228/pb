@@ -1,0 +1,114 @@
+@import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.flex {
+    display: flex;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #ffffff;
+    display: block;
+}
+
+
+h1 {
+    font-size: 40px;
+    font-family: Merriweather;
+    font-weight: 600;
+    display: block;
+    unicode-bidi: isolate;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Merriweather;
+    font-weight: 600;
+    display: block;
+    unicode-bidi: isolate;
+    margin: 50px;
+}
+
+.content {
+    width: 960px;
+    height: 100%;
+    margin: 0px auto;
+    background: #ffffff;
+    text-align: center;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 40px 0px 0px 0px;
+    box-shadow: 0px 0px 40px #C7B7A3;
+}
+
+.img-bodas img {
+    max-width: 100%;
+    width: 1000px;
+}
+
+.banner-divider {
+    position: relative;
+    background: #C7B7A3;
+    height: 40px;
+}
+
+.flex {
+    display: flex;
+    text-align: left;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.cover img {
+    height: 400px;
+}
+
+.detail {
+    margin-top: 20px;
+}
+
+.link img {
+    width: 210px;
+}
+
+.characters {
+    display: flex;
+    gap: 20px;
+}
+
+.characters img {
+    width: 200px;
+}
+
+.information {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.information-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.information-item:target {
+    display: block;
+}
+
+.text {
+    font-size: 25px;
+}
